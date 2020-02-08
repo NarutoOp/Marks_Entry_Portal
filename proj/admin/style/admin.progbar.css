@@ -1,0 +1,84 @@
+.test {
+	border: 1px solid red;
+}
+.ul li {
+	list-style: none; 
+	float: left;
+
+}
+
+.progbar {
+	position: relative;
+	left: 0%;
+}
+
+.ul {
+	counter-reset: step;
+}
+
+.ul li{
+	text-align: center;
+	width: calc(12%);
+	font-weight: bold;
+	font-size: 20px;
+	color: gray;
+}
+
+.ul li:before {
+	content: counter(step);
+	counter-increment: step;
+	width: 30px;
+	height: 30px;
+	border: 2px solid gray;
+	border-radius: 50%;
+	display: block;
+	margin: 0px auto 10px auto;
+	line-height: 30px;
+	background: #fff;
+	pointer-events: initial;
+	
+}
+
+.ul li:after {
+	content: '';
+	width: 14%;
+	height: 2px;
+	background: gray;
+	position: absolute;
+	top: 16px;
+	margin-left: -3%;
+	z-index: -1;
+	/*left: 200px;*/
+	/*left: 50px;*/
+}
+
+.ul li:last-child:after {
+	content: none;
+}
+
+.ul li.active {
+	color: #04359C;
+	cursor: pointer;
+	
+}
+
+.ul li.active:before {
+	border-color: #04359C;
+	box-shadow: 0px 0px 2px #04359C;
+	background-color: #04359C;
+	color: white;
+
+}
+
+.ul li.active:after {
+	background-color: #04359C;
+	box-shadow: 0px 0px 1px #04359C;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,41 @@
+
+.endbtn {
+	display: none;
+	position: absolute;
+	top: 46%;
+	left: 42%;
+	transform: translate(-50%) rotate(-1.5deg);
+}
+
+.endbtn ul{
+	left: 0;
+	list-style: none;
+	width: 150%;
+
+}
+
+.endbtn ul li {
+	float: left;
+	margin: 0px 10%;
+
+}
+
+.endbtn1, .endbtn2 {
+	border: 2px solid #04359C;
+	padding: 10px 20px;
+	color: #04359C;
+	font-size: 20px;
+	border-radius: 10px;
+	background-color: white;
+	cursor: pointer;
+	pointer-events: initial;
+
+
+}
+
+.endbtn1:hover, .endbtn2:hover {
+	background-color: #04359C;
+	color: white;
+
+}
+

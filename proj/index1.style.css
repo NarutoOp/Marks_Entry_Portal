@@ -1,0 +1,212 @@
+.test {
+	border: 1px solid red;
+}
+
+body {
+	background-image: url(webwallp.png);
+}
+
+.login {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+
+}
+
+.loginas {
+	font-size: 35px;
+	color: #04359C;
+	font-weight: lighter;
+}
+
+
+label {
+	position: relative;
+	top: -40px;
+	left: -27.4%;
+	visibility: hidden;
+	z-index: 2;
+	pointer-events: none;
+	transition: 0.5s all;
+	padding: 0 5px;
+	color: gray;
+	opacity: 0;
+}
+
+#passLbl {
+	left: -19%;
+}
+
+
+#user, #pass {
+	outline: none;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-radius: 10px;
+	border: 1px solid gray;
+	/*opacity: 0.9;*/
+	font-size: 18px;
+	padding-left: 13px; 
+	padding-right: 13px; 
+	/*background: rgb(242, 246, 255);*/
+	color: gray;
+	transition: 0.5s all;
+
+
+}
+#pass{
+	position: relative;
+	left: 21px;
+	width: 50%;
+	padding-right: 16%;
+}
+#user {
+	width: 30%;
+}
+
+#user:focus ~ #userLbl,
+#user:valid ~ #userLbl
+{
+	top: -65px;
+	left: -26%;
+	visibility: visible;
+	opacity: 1;
+}
+
+#pass:focus ~ #passLbl,
+#pass:valid ~ #passLbl {
+	top: -65px;
+	left: -15%;
+	visibility: visible;
+	opacity: 1;
+
+}
+
+
+
+#user:focus ~ #userLbl,
+ #user:valid ~ #userLbl,
+ #pass:focus ~ #passLbl ,
+ #pass:valid ~ #passLbl {
+
+	
+	background-color: white;
+	z-index: 2;
+	font-size: 18px;
+	padding: 0 10px;
+	color: #04359C;
+	border: 1px solid #04359C;
+	border-radius: 5px;
+
+}
+
+#user:focus,
+ #user:valid,
+ #pass:focus,
+ #pass:valid {
+	border: 1.3px solid #04359C;
+ }
+
+
+
+#admin {
+	margin-left: 15px 
+}
+
+#teacher {
+	margin-left: 30%;
+}
+
+#loginbtn {
+	outline: none;
+	border: none;
+	background-color: #04359C;
+	font-size: 20px;
+	padding: 10px 20px;
+	color: white;
+	border-radius: 10px;
+	text-align: center;
+	cursor: pointer;
+}
+
+
+
+/*iam*/
+
+.iam {
+	text-align: center;
+	font-size: 30px
+}
+
+.options {
+	padding: 0 100px 5px 12px;
+	display: none;
+	border-radius: 10px;
+	background: #04359C;
+	width: 2%;
+	position: relative;
+	left: 50%;
+	position: relative;
+	top: 0px;
+}
+
+.options .opt{
+	color: white;
+	border: none;
+	font-size: 23px;
+	background: transparent;
+	border-bottom-color: white;
+	cursor: pointer;
+}
+
+.desig {
+	padding: 0 30px;
+	font-size: 23px;
+	background: transparent;
+	border: 1px solid black;
+	border-radius: 10px;
+	cursor:pointer;
+}
+
+
+
+
+
+/* sufix */
+
+#mail-suf {
+	padding: 10px;
+	background: #04359C;
+	font-size: 17px;
+	border-radius: 10px;
+	color: white;
+	margin-left: 2%;
+	transition: 0.5s all;
+}
+
+
+.msg {
+	color: white;
+	font-size: 27px;
+	position: relative;
+	top: 42px;
+	left: -3%;
+	text-align: center;
+	font-family: bold;
+	z-index: 100;
+	transform: rotate(1.5deg)
+}
+
+@media screen and (max-width: 420px) {
+	.login {
+		width: 80%;
+	}
+}
+
+
+
+
+
+

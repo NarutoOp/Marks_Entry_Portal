@@ -1,0 +1,24 @@
+.eye{
+	position: relative;
+	top: 6px;
+	left: -10%;
+	/*transform: scale(0.07);*/
+	height: 25px;
+	width: 25px;
+	/*color: gray;*/
+	opacity: 0.4;
+	border-left: 2px solid black;
+	padding-left: 10px; 
+	cursor: pointer;
+	/*pointer-events: none;*/
+
+}
+
+.eyeOpen {
+	display: none;
+}
+
+.eyeClose {
+	position: relative;
+	left: -10%;
+}

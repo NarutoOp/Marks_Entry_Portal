@@ -1,0 +1,331 @@
+.hr {
+	margin: 0;
+	padding: 0;
+}
+
+.test {
+	border: 0.5px solid red;
+
+}
+
+body {
+	background: url(./../../webwallp.png);
+	background-size: center;
+
+
+}
+
+
+.outer {
+	/*height: 400px;*/
+	background: #04359C;
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translateX(-50%);
+	border-radius: 20px;
+	overflow: scroll;
+	transition: 0.5s all;
+
+
+	/*width: 50%;*/
+	/*max-width: 80px;*/
+
+
+	
+}
+
+.msg {
+	color: white;
+	font-size: 27px;
+	position: relative;
+	top: 35px;
+	left: -3%;
+	text-align: center;
+	font-family: bold;
+	z-index: 100;
+	transform: rotate(1.5deg);
+}
+
+.main-content {
+	transition: 0.5s all;
+	width: 400px;
+	max-height: 400px !important;
+	min-width: 40%;
+}
+.opts {
+	text-align: center;
+	color:white;
+	font-size: 20px;
+	padding: 20px 0px;
+	cursor: pointer;
+}
+
+
+.back{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-color: #04359C;
+	position: absolute;
+	top: 90%;
+	left: 50%;
+	transform: translateX(-50%);
+	border: 1px solid white;
+	cursor: pointer;
+	opacity: 0.9;
+
+	/*z-index: 9999;*/
+}
+
+
+.loading {
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	border: 5px solid white;
+	border-left-color: transparent;
+	border-right-color: transparent;
+	position: relative;
+	top: 40%;
+	left: 40%;
+	transform: translate(-40%, -40%);
+	animation: animate 2s linear infinite; 
+}
+
+@keyframes animate {
+	0% {
+		transform: rotate(10deg);
+	}
+	40% {
+		transform: rotate(170deg);
+	}
+	50% {
+		transform: rotate(-190deg);
+	}
+	100%{
+		transform: rotate(370deg);
+	}
+}
+
+.message {
+	color: white;
+
+}
+
+.message h2 {
+	padding: 20px 30px 0px;
+	text-align: center;
+}
+
+.confirm {
+	text-align: center;
+	background: transparent;
+	color: white;
+	/*padding: 10px 30px;*/
+	font-size: 20px;
+	outline: none;
+	height: 70px;
+	width: 100%;
+	transition: 0.5s all;
+	border: none;
+	cursor: pointer;
+	/*height: 63px;*/
+
+}
+.sndMail{
+	/*margin-bottom: -10px;*/
+	/*width: 10px;*/
+}
+.archive {
+	position: absolute;
+	top: 0;
+	margin-left: 50%;
+	background: #f0ad4e;
+	transition: 0.5s all ease-in-out;
+	border-radius: 50px;
+	opacity: 1.0;
+
+	/*margin-top: -10px;*/
+}
+
+.cancel {
+	position: absolute;
+	top: 0;
+	margin-left: -80%;
+	background: #d9534f;
+	transition: 0.5s all ease-in-out;
+	border-radius: 50px;
+	opacity: 1.0;
+}
+
+.archive:hover {
+	margin-left: 10%;
+	border-radius: 20px;
+	opacity: 1;
+
+}
+
+.cancel:hover {
+	opacity: 1;
+	margin-left: -10%;
+	border-radius: 20px;
+
+}
+
+
+.outer-animate {
+	animation: outer-anim 0.5s linear forwards,
+				 outer-bounse 1.5s ease-in-out infinite;
+}
+
+
+@keyframes outer-anim {
+	from {
+		width: 400px;
+	}
+	to {
+		width: 60px;
+		height: 60px;
+		border-radius: 50%;
+	}
+}
+
+@keyframes outer-bounse {
+	0% {
+		top: 534.79998779296875px;
+
+		/*left: -10px;*/
+		transform: scale(1, 0.7);
+		left: 47.83%;
+
+	} 50% {
+		top: 334.79998779296875px;
+		transform: scale(0.7, 1);
+		left: 47.83%;
+
+		/*transform: translateX(-50%);*/
+
+
+	} 100% {
+		top: 534.79998779296875px;
+		left: 47.83%;
+
+		/*transform: translateX(-50%);*/
+		transform: scale(1, 0.7);
+
+
+	}
+}
+.shadow {
+	position: absolute;
+	top: 586px;
+	left: 48%;
+	height: 10px;
+	width: 60px;
+	background-color: gray;
+	border-radius: 50%; 
+	border-bottom-color: gray;
+	box-shadow: 0px 0px 4px gray,
+		0px 0px 4px gray,
+		0px 0px 4px gray;
+	animation: shadow-anim 1.5s ease-in-out infinite;
+}
+
+@keyframes shadow-anim {
+	0% {
+		transform: scale(0.8, 1);
+
+	} 50% {
+		transform: scale(0.4,1);
+
+ 	} 100% {
+		transform: scale(0.8, 1);
+
+ 	}
+}
+
+.sending {
+	top: 33px;
+	left: 31%;
+	transform: translateX(-50%);
+	font-size: 23px;
+	display: inline;
+}
+
+
+.li-msg {
+	position: absolute;
+	/*top: 200px;*/
+	display: inline-block;
+	background: #04359C;
+	color: white;
+	padding: 10px 20px;
+	border-radius: 10px;
+	display: none; 
+	opacity: 0.9;
+	/*border: 1px solid white;*/
+	box-shadow: -5px -5px 1px white;
+
+	box-sizing: border-box;
+}
+
+
+/*on smart phone*/
+
+
+@media screen and (max-width : 414px) {
+	.main-content {
+		width: 300px;
+	}
+
+}
+
+.back_page {
+	position: fixed;
+	top: -2000%;
+	left: -300px;
+	border: 20px solid darkblue;
+	background: #212529;
+	transform: scale(0.07);
+	padding: 100px;
+	border-radius: 50%;
+	cursor: pointer;
+	z-index: 1000;
+}
+
+.li {
+	/*visibility: hidden;*/
+}
+
+@media screen and (max-width: 420px) {
+
+	.back_page {
+		display: none;
+	}
+
+	.msg {
+		font-size: 23px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,263 @@
+body {
+	background-image: url(../../../webwallp.png);
+}
+
+.msg {
+	color: white;
+	font-size: 27px;
+	position: relative;
+	top: 35px;
+	left: -3%;
+	text-align: center;
+	font-family: bold;
+	z-index: 100;
+	transform: rotate(1.5deg);
+}
+
+
+.test {
+	border: 1px solid red;
+}
+
+.h-center {
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.v-center {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.outer-table {
+	top: 200px;
+	text-align: center;
+}
+
+.pre-msg {
+	font-size: 19px
+}
+
+.heading1 {
+	margin-left: 2%;
+}
+
+.heading2, .heading3, .heading4 {
+	margin-left: 4%;
+}
+
+.heading4 button {
+	width: 59px !important;
+}
+
+.dataSearch, .total-rows {
+	width: 8%;
+	height: 35px;
+
+	font-size: 19px;
+	font-weight: lighter;
+	outline: none;
+	border: 1px solid #04359C;
+	border-radius: 10px;
+	padding-left: 10px; 
+}
+
+.total-rows {
+	width: 3%;
+
+}
+
+.tbl {
+	border-collapse: collapse;
+	border-radius: 20%;
+	margin-bottom: 50px;
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
+	margin: 0 40px;
+ 
+}
+
+
+.tbl td {
+	padding: 5px;
+	font-size: 17px;
+
+}
+
+.tbl th {
+	background: #04359C;
+	color: white;
+	padding: 10px;
+	font-size: 19px;
+	font-weight: bold;
+}
+
+tr:nth-child(even) {
+	background: #E6E6E6;
+}
+
+tr:hover {
+	background: black;
+	color: white;
+}
+
+
+td, th {
+	width: 11%;
+	cursor: pointer;
+	
+	/*border-bottom: 1px solid black;*/
+	/*border-right: 1px solid black; */
+}
+
+/*Pagging*/
+
+.pagging ul {
+	list-style: none;
+	/*margin-left: 21%;*/
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.pagging li {
+	float: left;
+	margin-bottom: 50px;
+}
+
+.pagging button, .heading4 button {
+	cursor: pointer;
+
+	border: none;
+	height: 40px;
+	width: 40px;
+	font-size: 18px;
+	background-color: transparent;
+	border: 2px solid #04359C;
+	line-height: 35px;
+	border-radius: 10px;
+	outline: none;
+
+}
+
+#active {
+	background: #04359C !important;
+	color: white;
+	outline: none;
+}
+
+.tbl select {
+	font-size: 17px;
+	margin: 5px 10px;
+	outline: none;
+	border: none;
+	color: white;
+}
+
+/*.selectForm .ng-dirty {
+	background: #F2A308;
+}
+*/
+.green {
+	background: #108040;
+}
+.orange {
+	background: #FD8008;
+}
+.red {
+	background: #FC0107;
+}
+
+ 
+.greenBorder {
+	border-left: 10px solid #108040;
+}
+.orangeBorder {
+	border-left: 10px solid orange;
+}
+.redBorder {
+	border-left: 10px solid red;
+}
+
+.add{ 
+	position: fixed;
+	top: 90%;
+	left: 90%;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.addNew {
+	color: white;
+	height: 50px;
+	width: 50px;
+	background: #04359C;
+	border-radius: 50%;
+	line-height: 45px;
+	font-size: 40px;
+	text-align: center;
+	z-index: 10;
+	transition: 0.2s all ease-in-out;
+
+}
+.addMsg {
+	z-index: -10;	
+	position: relative;
+	left: -200px;
+	top: -43px;
+	
+	background: #04359C;
+	color: white;
+
+	border-radius: 10px;
+
+	height: 15px;
+	width: 129%;
+	padding: 10px 15px 10px 10px;
+	line-height: 20px;
+
+	overflow: hidden;
+	transition: 0.2s all ease-in-out;
+	/*display: none;*/
+
+	/*opacity: 0;*/
+
+
+}
+.addNew:hover {
+	opacity: 1;
+}
+
+
+
+.main-head {
+	text-align: center;
+}
+
+
+@media screen and (max-width: 420px) {
+	.main-head {
+		width: 237%;
+	}
+	.total-rows {
+		width: 4.5%;
+	}
+	.dataSearch {
+		width: 16%;
+	}
+
+	.add {
+		left: 84%;
+	}
+
+}
+
+
+
+
+
