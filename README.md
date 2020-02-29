@@ -30,25 +30,21 @@
 
 - This project include admin as well as Teacher login options.
 
-### Admin login -
--- Register Teachers/Professors
--- Registered Teacher will get their password via mail.
--- Assign role to the Teacher/Professor for marks entry.
--- Remove role of Teachers/Professor .
--- Assign subject and class to Teachers .
+#### Admin login -
+- Register Teachers/Professors
+- Registered Teacher will get their password via mail.
+- Assign role to the Teacher/Professor for marks entry.
+- Remove role of Teachers/Professor .
+- Assign subject and class to Teachers .
 
-### Teacher Login
--- Can see assigned subjects and class .
--- Select subject and class using dropdown.
--- Start marks entry marks will automatically added to database .
--- Can update marks until hitting submit button .
--- After hitting submit button you cannot alter marks or update it.
+#### Teacher Login
+- Can see assigned subjects and class .
+- Select subject and class using dropdown.
+- Start marks entry marks will automatically added to database .
+- Can update marks until hitting submit button .
+- After hitting submit button you cannot alter marks or update it.
 
 ---
-
-## How to install? (for devs)
-
-#### This installation assumed you have python 3.X installed. [Get python here](https://www.python.org/ftp/python/3.8.1/python-3.8.1-
 
 :triangular_ruler: :pencil2: :straight_ruler:
 
