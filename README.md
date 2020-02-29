@@ -1,8 +1,11 @@
+---
 # Marks_Entry_Portal
  The system is basically made for Professors and Teachers to enter marks of student .
  This project include admin as well as user site.
  Admin will assign teachers for marks entry process using its admin login,he can assign ,remove and add teachers in portal, the teacher will get their login id and password via mail who are assigned by admin to the marks entry process .
 The user will be the teachers who are assigned .They will login using user login and select using dropdown to subject and start adding marks .Marks will be added to the database automatically while your are typing .
+
+---
 
 # The Technologies used are :
 - [ ] Node.js
@@ -15,9 +18,10 @@ The user will be the teachers who are assigned .They will login using user login
 - [x] Ajax
 - [x] PHP mailer
 
+---
+
 
 # Plei 
-**A game launcher with no bloat**
 [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://javascript.com)
 
 [![HitCount](http://hits.dwyl.io/sakshatshinde/Plei.svg)](http://hits.dwyl.io/sakshatshinde/Plei) [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues) [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
@@ -57,20 +61,7 @@ As new game launchers came into being it increasingly got annoying to keep track
 -  The above mentioned process maybe fully automated in the future
 - After the initial setup you will be greeted with the installed games, just click on one to play it. Its that simple!
 
----
-
-## Future endeavors 
-
- - Game recommendations based on your current library
- - Statistics about your gaming habbits
  
- ---
- 
-## Why is this launcher dependent on other launchers?
-
-Sadly, Some games need the parent launcher to be running in order to launch them. If you try to launch the game from it's binary `exe` it may refuse to launch. To keep things simple, compatible and working as intended, this design decision had to be made. If anyone finds a workaround I'd be happy to implement it, you may contribute to the project directly as well. 
-
----
 
 :triangular_ruler: :pencil2: :straight_ruler:
 
