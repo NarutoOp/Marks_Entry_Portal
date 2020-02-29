@@ -18,21 +18,10 @@ The user will be the teachers who are assigned .They will login using user login
 
 # Plei 
 **A game launcher with no bloat**
-https://forthebadge.com/images/badges/uses-html.svg
-[![forthebadge made-with-php](https://forthebadge.com/images/badges/uses-html.svg)](https://www.php.net/)
+[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://javascript.com)
 
 [![HitCount](http://hits.dwyl.io/sakshatshinde/Plei.svg)](http://hits.dwyl.io/sakshatshinde/Plei) [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues) [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
-**This project is ready for the launchers given below!** 
-
-- [x] Steam
-- [x] Origin
-- [x] Epic Games Launcher
-- [x] Uplay
-- [ ] Standalone Games
-- [ ] Battlenet
-
----
 
 ## Why is this a thing?
 
@@ -84,9 +73,6 @@ Sadly, Some games need the parent launcher to be running in order to launch them
 ---
 
 :triangular_ruler: :pencil2: :straight_ruler:
-## Diagram 
-
-[![](https://mermaid.ink/img/eyJjb2RlIjoiZ3JhcGggTFJcblxuQT5QbGVpXSAtLT4gU3t7U3RlYW19fVxuQSAtLT4gRXt7RUdTfX1cbkEgLS0-IE97e09yaWdpbn19XG5BIC0tPiBVe3t1UGxheX19XG5BIC0tPiBCe3tiYXR0bGVOZXR9fVxuQSAtLT4gUFtPZmZsaW5lIEdhbWVzXVxuUyAtLT4gTihTdG9yZSBOZXR3b3JrIFByb3RvY29sKVxuRSAtLT4gTihTdG9yZSBOZXR3b3JrIFByb3RvY29sKVxuTyAtLT4gTihTdG9yZSBOZXR3b3JrIFByb3RvY29sKVxuVSAtLT4gTihTdG9yZSBOZXR3b3JrIFByb3RvY29sKVxuQiAtLT4gTihTdG9yZSBOZXR3b3JrIFByb3RvY29sKVxuUCAtLT4gYmluKEJpbmFyeSBFWEUpXG5OIC0uLT4gTChbTGF1bmNoIHRoZSBnYW1lXSlcbmJpbiAtLi0-IEwiLCJtZXJtYWlkIjp7InRoZW1lIjoiZGVmYXVsdCJ9fQ)](https://mermaid-js.github.io/mermaid-live-editor/#/edit/eyJjb2RlIjoiZ3JhcGggTFJcblxuQT5QbGVpXSAtLT4gU3t7U3RlYW19fVxuQSAtLT4gRXt7RUdTfX1cbkEgLS0-IE97e09yaWdpbn19XG5BIC0tPiBVe3t1UGxheX19XG5BIC0tPiBCe3tiYXR0bGVOZXR9fVxuQSAtLT4gUFtPZmZsaW5lIEdhbWVzXVxuUyAtLT4gTihTdG9yZSBOZXR3b3JrIFByb3RvY29sKVxuRSAtLT4gTihTdG9yZSBOZXR3b3JrIFByb3RvY29sKVxuTyAtLT4gTihTdG9yZSBOZXR3b3JrIFByb3RvY29sKVxuVSAtLT4gTihTdG9yZSBOZXR3b3JrIFByb3RvY29sKVxuQiAtLT4gTihTdG9yZSBOZXR3b3JrIFByb3RvY29sKVxuUCAtLT4gYmluKEJpbmFyeSBFWEUpXG5OIC0uLT4gTChbTGF1bmNoIHRoZSBnYW1lXSlcbmJpbiAtLi0-IEwiLCJtZXJtYWlkIjp7InRoZW1lIjoiZGVmYXVsdCJ9fQ)
 
 ---
 
