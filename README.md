@@ -1,6 +1,9 @@
 ---
+
 # Marks_Entry_Portal
-[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://javascript.com)
+
+[![forthebadge](https://img.icons8.com/cotton/64/000000/badge--v3.png)](https://javascript.com)
+
 ---
 
  The system is basically made for Professors and Teachers to enter marks of student .
