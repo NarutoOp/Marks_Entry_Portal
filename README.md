@@ -2,7 +2,7 @@
 
 [![ForTheBadge winter-is-coming](http://ForTheBadge.com/images/badges/winter-is-coming.svg)](https://github.com/NarutoOp)
 
-[![HitCount](http://hits.dwyl.com/NarutoOp/Marks_Entry_Portal.svg)](http://hits.dwyl.com/NarutoOp/Marks_Entry_Portal) [![Generic badge](https://img.shields.io/badge/Arpit-Gupta-1abc9c.svg)](https://github.com/NarutoOp) [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+[![HitCount](http://hits.dwyl.com/NarutoOp/Marks_Entry_Portal.svg)](http://hits.dwyl.com/NarutoOp/Marks_Entry_Portal) [![Generic badge](https://img.shields.io/badge/Arpit-Gupta-1abc9c.svg)](https://github.com/NarutoOp)
 
 ---
 
