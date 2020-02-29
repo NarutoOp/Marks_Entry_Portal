@@ -2,11 +2,7 @@
 
 [![forthebadge](https://forthebadge.com/images/badges/you-didnt-ask-for-this.svg)](https://forthebadge.com)
 
- The system is basically made for Professors and Teachers to enter marks of student .
- This project include admin as well as user site.
- Admin will assign teachers for marks entry process using its admin login,he can assign ,remove and add teachers in portal, the teacher will get their login id and password via mail who are assigned by admin to the marks entry process .
-The user will be the teachers who are assigned .They will login using user login and select using dropdown to subject and start adding marks .Marks will be added to the database automatically while your are typing .
-
+[![HitCount](http://hits.dwyl.io/sakshatshinde/Plei.svg)](http://hits.dwyl.io/sakshatshinde/Plei) [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues) [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 ---
 
@@ -23,22 +19,29 @@ The user will be the teachers who are assigned .They will login using user login
 
 ---
 
+## User of System :
 
-
-[![HitCount](http://hits.dwyl.io/sakshatshinde/Plei.svg)](http://hits.dwyl.io/sakshatshinde/Plei) [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues) [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
-
-
-## Why is this a thing?
-
-As new game launchers came into being it increasingly got annoying to keep track of all the games over different stores/platform. I wanted to make a unified front where users can access all their games, including the one with no launchers. The goal behind this launcher is to be simple, minimilistic and **bloat-free**
+ - The system is made for Examination Department . 
+ - Also system made for Professors and Teachers to keep record of student's mark .
 
 ---
 
-## How to install?
+## Functionality :
 
-- Download the latest version from [releases](https://github.com/sakshatshinde/Plei/releases)
-- Run the setup.exe
-- Run Plei.exe (May require admin privileages if installed in C:// drive)
+- This project include admin as well as Teacher login options.
+- Admin login
+-- Register Teachers/Professors
+-- Registered Teacher will get their password via mail.
+-- Assign role to the Teacher/Professor for marks entry.
+-- Remove role of Teachers/Professor .
+-- Assign subject and class to Teachers .
+
+- Teacher Login
+-- Can see assigned subjects and class .
+-- Select subject and class using dropdown.
+-- Start marks entry marks will automatically added to database .
+-- Can update marks until hitting submit button .
+-- After hitting submit button you cannot alter marks or update it.
 
 ---
 
@@ -67,12 +70,3 @@ As new game launchers came into being it increasingly got annoying to keep track
 :triangular_ruler: :pencil2: :straight_ruler:
 
 ---
-
-### Special thanks to
-- [Arpit Gupta](https://github.com/NarutoOp)
-for packaging the application
-
----
-
-## License
-[![GNU GPLv3 Image](https://www.gnu.org/graphics/gplv3-127x51.png)](http://www.gnu.org/licenses/gpl-3.0.en.html)
