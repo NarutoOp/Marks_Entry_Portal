@@ -5,9 +5,9 @@
 The user will be the teachers who are assigned .They will login using user login and select using dropdown to subject and start adding marks .Marks will be added to the database automatically while your are typing .
 
 # The technologies used are :
-- PHP
-- bootstrap
-- angular js
-- javascript
-- ajax
-- PHP mailer
+- [] PHP
+- [] Bootstrap
+- [] Angular js
+- [] Javascript
+- [] Ajax
+- [] PHP mailer
