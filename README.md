@@ -2,31 +2,33 @@
 
 [![forthebadge](https://forthebadge.com/images/badges/you-didnt-ask-for-this.svg)](https://forthebadge.com)
 
-[![HitCount](http://hits.dwyl.com/NarutoOp/Marks_Entry_Portal.svg)](http://hits.dwyl.com/NarutoOp/Marks_Entry_Portal) [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues) [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+[![HitCount](http://hits.dwyl.com/NarutoOp/Marks_Entry_Portal.svg)](http://hits.dwyl.com/NarutoOp/Marks_Entry_Portal) [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/NarutoOp) [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 ---
 
-# The Technologies used are :
-- [ ] Node.js
+## The Technologies used are :
+
+
 - [x] PHP
 - [x] Bootstrap
 - [x] Angular js
 - [ ] React.js
 - [x] Javascript
+- [ ] Node.js
 - [ ] Python
 - [x] Ajax
 - [x] PHP mailer
 
 ---
 
-## User of System
+## User of Portal
 
  - The system is made for Examination Department . 
  - Also system made for Professors and Teachers to keep record of student's mark .
  
 ---
 
-## Functionality
+## Portal Functionality
 
 - This project include admin as well as Teacher login options.
 
@@ -43,9 +45,5 @@
 - Start marks entry marks will automatically added to database .
 - Can update marks until hitting submit button .
 - After hitting submit button you cannot alter marks or update it.
-
----
-
-:triangular_ruler: :pencil2: :straight_ruler:
 
 ---
