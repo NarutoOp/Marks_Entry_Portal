@@ -1,5 +1,8 @@
 ---
 # Marks_Entry_Portal
+[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://javascript.com)
+---
+
  The system is basically made for Professors and Teachers to enter marks of student .
  This project include admin as well as user site.
  Admin will assign teachers for marks entry process using its admin login,he can assign ,remove and add teachers in portal, the teacher will get their login id and password via mail who are assigned by admin to the marks entry process .
@@ -21,8 +24,6 @@ The user will be the teachers who are assigned .They will login using user login
 ---
 
 
-# Plei 
-[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://javascript.com)
 
 [![HitCount](http://hits.dwyl.io/sakshatshinde/Plei.svg)](http://hits.dwyl.io/sakshatshinde/Plei) [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues) [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
