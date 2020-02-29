@@ -4,7 +4,7 @@
 
 [![forthebadge](https://forthebadge.com/images/badges/you-didnt-ask-for-this.svg)](https://forthebadge.com)
 
----
+
 
  The system is basically made for Professors and Teachers to enter marks of student .
  This project include admin as well as user site.
